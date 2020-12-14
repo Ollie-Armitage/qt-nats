@@ -1,4 +1,7 @@
 # qt-nats
+
+This is a fork of the original qt-nats that uses QWebSockets instead of QSslSockets.
+
 A [Qt5](https://www.qt.io) C++11 client for the [NATS messaging system](https://nats.io).
 
 [![License MIT](https://cdn.rawgit.com/pkoretic/qt-nats/badges/license.svg)](http://opensource.org/licenses/MIT)
