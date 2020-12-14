@@ -104,27 +104,6 @@ client.connect("127.0.0.1", 4222, options, []
     ...
 });
 
-```
-
-## TLS/SSL
-```
-Nats::Client client;
-Nats::Options options;
-
-// for development
-options.ssl_verify = false;
-
-// set relevant ssl options
-options.ssl_ca = "/path/to/ca.crt";
-options.ssl_key = "/path/to/local.key";
-options.ssl_cert = "/path/to/local.crt";
-
-client.connect("127.0.0.1", 4222, options, [&client]
-{
-    ...
-});
-```
-
 ## Qt signals
 
 This is Qt specific. If you are used to using Qt signals & slots or you just prefer them over callbacks:
