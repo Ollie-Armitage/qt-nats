@@ -103,7 +103,7 @@ client.connect("127.0.0.1", 4222, options, []
 {
     ...
 });
-
+```
 ## Qt signals
 
 This is Qt specific. If you are used to using Qt signals & slots or you just prefer them over callbacks:
